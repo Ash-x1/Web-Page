@@ -301,3 +301,85 @@ footer p{
     font-size: 16px;
     font-weight: 500;
 }
+
+
+/*about-section*/
+.about-section{
+    height: 100vh;
+    background-color: #1f2937;
+    display: flex; 
+    align-items: center;
+    justify-content:center ;
+}
+
+.about-main{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+.about-main h2{
+    font-size: 48px;
+    color: #FFFCB8;
+}
+
+.about-main h4{
+    font-size: 26px;
+    text-decoration: underline;
+    color: #F9FAF8;
+    margin-top: 20px;
+}
+
+.about-main p{
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
+.about-main span{
+    color: #FFFCB8;
+    font-weight: 600;
+}
+
+
+/*contact section*/
+.contact-section{
+    height: 100vh;
+    background-color: #1f2937;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-contact{
+    height: 250px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contact-two{
+    height: 250px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail-acc, .whatsapp-acc, .instagram-acc, .facebook-acc{
+    font-size: 25px;
+    padding: 20px 15px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.gmail-acc{
+    background-color: #FBBC05;
+}
+
