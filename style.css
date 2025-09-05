@@ -367,9 +367,14 @@ footer p{
 .main-contact-two{
     height: 250px;
     display: flex;
-    gap: 80px;
+    gap: 130px;
     justify-content: center;
     align-items: center;
+}
+
+.contact-section a{
+    text-decoration: none;
+    color: #5D688A;
 }
 
 .gmail-acc, .whatsapp-acc, .instagram-acc, .facebook-acc{
@@ -380,6 +385,32 @@ footer p{
 }
 
 .gmail-acc{
-    background-color: #FBBC05;
+    background-color: #FFFCB8;
+    border-radius: 15px;
 }
 
+.whatsapp-acc{
+    background-color: #FFFCB8;
+    border-radius: 15px;
+}
+
+.instagram-acc{
+    background-color: #FFFCB8;
+    border-radius: 15px;
+}
+
+.facebook-acc{
+    background-color: #FFFCB8;
+    border-radius: 15px;
+}
+
+.contact-section span{
+    color: #FFFCB8;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contact-section h2{
+    color: #F9FAF8;
+    font-size: 25px;
+}
